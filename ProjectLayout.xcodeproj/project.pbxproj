@@ -13,6 +13,7 @@
 		1215165A27B5326D0074C501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1215165827B5326D0074C501 /* Main.storyboard */; };
 		1215165C27B5326E0074C501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1215165B27B5326E0074C501 /* Assets.xcassets */; };
 		1215165F27B5326E0074C501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1215165D27B5326E0074C501 /* LaunchScreen.storyboard */; };
+		1215166727B534B80074C501 /* metallica.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1215166627B534B80074C501 /* metallica.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1215165B27B5326E0074C501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1215165E27B5326E0074C501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1215166027B5326E0074C501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215166627B534B80074C501 /* metallica.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metallica.jpeg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1215165127B5326D0074C501 /* ProjectLayout */ = {
 			isa = PBXGroup;
 			children = (
+				1215166627B534B80074C501 /* metallica.jpeg */,
 				1215165227B5326D0074C501 /* AppDelegate.swift */,
 				1215165427B5326D0074C501 /* SceneDelegate.swift */,
 				1215165627B5326D0074C501 /* ViewController.swift */,
@@ -127,6 +130,7 @@
 			files = (
 				1215165F27B5326E0074C501 /* LaunchScreen.storyboard in Resources */,
 				1215165C27B5326E0074C501 /* Assets.xcassets in Resources */,
+				1215166727B534B80074C501 /* metallica.jpeg in Resources */,
 				1215165A27B5326D0074C501 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
